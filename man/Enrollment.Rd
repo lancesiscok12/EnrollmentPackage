@@ -11,12 +11,8 @@ Enrollment(myschoolyear = 2016, currentDate = paste(substring(Sys.Date(), 6,
   includeRace = "N", includeTitleITargeted = "N",
   includeTitleISchool = "N", includeLAP = "N")
   }
-
 {\arguments{\item{myschoolyear:}{School Year to run}}
- \arguments{\item{currentDate:}{Defaults to todays date.  Can run any 'as of'}}
- \arguments{\item{maxDate:}{ Max Date - defaults to 12/31/999}}
- \arguments(\item{PrimaryOnly:}{ Include only primary school enrollment ('Y') or all Enrollment('N')}}}
-            
+ \arguments{\item{currentDate:}{Defaults to todays date.  Can run any 'as of'}}}
 \description{
 This function will pull all students enrolled at any point during the school year.
 }
