@@ -13,7 +13,7 @@ Enrollment(myschoolyear = 2016, currentDate = paste(substring(Sys.Date(), 6,
 }
 \arguments{
 \item{myschoolyear:}{School Year to run}
-  }
+  }}
 \description{
 This function will pull all students enrolled at any point during the school year.
   }
